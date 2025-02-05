@@ -26,13 +26,14 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 28
-    namespace "com.alexmiller.map_launcher"
+
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
         minSdkVersion 16
+        namespace "com.alexmiller.map_launcher"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
