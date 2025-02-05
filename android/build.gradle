@@ -26,6 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 28
+    namespace "com.alexmiller.map_launcher"
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
