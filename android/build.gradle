@@ -25,9 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    if (project.android.hasProperty("namespace")) {
-        namespace 'com.alexmiller.map_launcher'
-    }
+    namespace 'com.alexmiller.map_launcher'
 
     compileSdkVersion 33
 
